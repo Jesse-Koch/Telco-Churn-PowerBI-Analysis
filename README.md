@@ -6,15 +6,15 @@ Analysis of 7,043 telecom customers to identify the strongest drivers of churn a
 ## Key Findings
 - **Contract Type is the strongest single driver of churn**: **month-to-month** customers churn at **42.7%**, a **36.0** percentage-point gap compared to customers on longer contracts.
 - **The overlap analysis reveals a root cause behind most drivers.** Contract Type, Tenure, Payment Method, and adoption of add-on services (Online Security and Tech Support) are not independent. **91.2%** of first-year customers are on month-to-month contracts, and month-to-month customers are also far more likely to pay by electronic check and skip on add-on services.
-- **Internet Service Type and Monthly Charges are also entangled**: Fiber optic customers are almost all concentrated in the highest price bracket ($81-100+/month), suggesting Fiber optic's high churn (41.9%) reflects a price vs. value effect rather than a quality of service issue.
+- **Internet Service Type and Monthly Charges are also entangled**: Fiber optic customers are almost all concentrated in the highest price bracket ($81-100+/month), suggesting Fiber optic's high churn (41.9%) reflects a price vs. value effect, rather than a quality of service issue.
 - Ten drivers were tested and ranked using a **percentage-point-gap** ranking methodology; gender was tested and ruled out (*0.7-point gap, considered negligible*).
 
 ## Dashboard Structure
 The report is built across four pages:
-1. **Executive Summary** — headline KPIs, ranked driver chart, top recommendations
-2. **Driver Deep-Dive** — individual churn-rate breakdowns across Contract Type, Tenure, Payment Method, Internet Service, Monthly Charges, and support services
-3. **Overlap Analysis** — cross-tabulations testing whether top drivers are independent or overlapping
-4. **Customer Explorer** — table with filters for browsing individual customer records
+1. **Executive Summary** - headline KPIs, ranked driver chart, top recommendations
+2. **Driver Deep-Dive** - individual breakdowns of churn rate across Contract Type, Tenure, Payment Method, Internet Service, Monthly Charges, and add-on services
+3. **Overlap Analysis** - cross-tabulations to test whether top drivers are independent or overlapping
+4. **Customer Explorer** - table with filters for browsing individual customer records
 
 It also includes a persistent left-side navigation panel with slicers and page-navigation buttons.
 
