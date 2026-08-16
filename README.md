@@ -26,9 +26,6 @@ It also includes a persistent left-side navigation panel with slicers and page-n
 ## Tools
 Power BI Desktop (Power Query (data cleaning), DAX measures and calculated columns, cross-tabulation via Matrix visuals, custom report theme, interactive navigation)
 
-## Data Cleaning Note
-The source dataset is largely clean, but one column (`SeniorCitizen`) contained a hidden whitespace inconsistency that caused duplicate-looking categories despite passing standard validity checks. It was then resolved using a `TRIM()` calculated column. 
-
 ## Methodology
 Churn drivers were ranked by **percentage-point gap** between each risk group and the rest of the customer base. Thresholds were set at the point where churn rate showed the **sharpest shift** in the data (especially where continuous variables required grouping (Tenure and Monthly Charges)) rather than using evenly-sized brackets. This improved accuracy over pure consistent bucketing (e.g., Monthly Charges' gap increased from **12.0** to **20.2** points once the threshold was set at the actual point of inflection rather than an arbitrary high-end cutoff).
 
