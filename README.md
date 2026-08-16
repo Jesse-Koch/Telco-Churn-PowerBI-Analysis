@@ -5,8 +5,8 @@ Analysis of 7,043 telecom customers to identify the strongest drivers of churn a
 
 ## Key Findings
 - **Contract Type is the strongest single driver of churn**: **month-to-month** customers churn at **42.7%**, a **36.0** percentage-point gap compared to customers on longer contracts.
-- **The overlap analysis reveals a root cause behind most drivers.** Contract Type, Tenure, Payment Method, and adoption of add-on services (Online Security and Tech Support) are not independent. **91.2%** of first-year customers are on month-to-month contracts, and month-to-month customers are also far more likely to pay by electronic check and skip on add-on services.
-- **Internet Service Type and Monthly Charges are also entangled**: Fiber optic customers are almost all concentrated in the highest price bracket ($81-100+/month), suggesting Fiber optic's high churn (41.9%) reflects a price vs. value effect, rather than a quality of service issue.
+- **The overlap analysis reveals a root cause behind most drivers.** **91.2%** of first-year customers are on month-to-month contracts, and month-to-month customers are also far more likely to pay by electronic check and skip on add-on services.
+- **Internet Service Type and Monthly Charges are also dependent on each other.**: Fiber optic customers are almost all concentrated in the highest price bracket ($81-100+/month), suggesting Fiber optic's high churn (41.9%) reflects a price vs. value effect.
 - Ten drivers were tested and ranked using a **percentage-point-gap** ranking methodology; gender was tested and ruled out (*0.7-point gap, considered negligible*).
 
 ## Dashboard Structure
